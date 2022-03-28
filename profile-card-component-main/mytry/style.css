@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --color1:hsl(229, 23%, 23%);
+    --color2:hsl(227, 10%, 46%);
+    --color3:hsl(185, 75%, 39%);
+    --color4:hsl(0, 0%, 59%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    width: auto;
+    background-color: white;
+    width: 1440px;
+}
+
+.container{
+    height: 450px;
+    width: 1240px;
+    background-color: var(--color3);
+    margin: auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.circle_top{
+    width:45%;
+    position: relative;
+    top:-70%;
+    right:0%;
+    
+}
+
+.circle_bottom{
+    width: 50%;
+    position: relative;
+    top: 50%;
+    right:-10%;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    
+}
+
+.victor{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index:3;
+    border:6px solid white;
+    padding:0;
+    margin:0;
+}
+
+.bobbles{
+    width: 300px;
+    height: 110px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-110%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card_stats{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-bottom: 0.3vh solid rgb(218, 218, 218);
+}
+
+span{
+    color: grey;
+    font-weight: 400;
+}
+
+.card_stats p{
+    font-size: 16px;
+    color: grey;
+    padding: 8px;
+}
+
+.card_profile{
+    
+}
+
+.card_n{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}

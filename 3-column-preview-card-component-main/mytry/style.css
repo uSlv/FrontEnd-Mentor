@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+:root{
+    --color0:hsl(31, 77%, 52%);
+    --color1:hsl(184, 100%, 22%);
+    --color2: hsl(179, 100%, 13%);
+}
+
+body{
+    width: 100vh;
+    background-color: white;
+    margin: auto;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    border: solid 1px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    font-size: 13px;
+    
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20%;
+    
+}
+
+.sedans{
+    height:400px ;
+    background-color: var(--color0);
+    padding: 10px 40px 0px 20px;
+    text-align: start;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+}
+.suvs{
+    height:400px ;
+    background-color: var(--color1);
+    padding: 0px 40px 0px 20px;
+    text-align: start;
+    padding: 20px;
+}
+.luxury{
+    height:400px ;
+    background-color: var(--color2);
+    padding: 0px 40px 0px 20px;
+    text-align: start;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px;
+}
